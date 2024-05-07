@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+article{
+    background-color:gray;
+    text-align: center;
+}
+main{
+    background-image: url("../imagies/img3.jpg");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box{
+    justify-content: center;
+}
+.box-items{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 500px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    align-content: end;
+    padding: 20px;
+    justify-content: center;
+}
+
+h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+p{
+    
+    color: white;
+}
